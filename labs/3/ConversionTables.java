@@ -5,7 +5,7 @@ public class ConversionTables {
 		System.out.println("Kilograms      Pounds   |   Pounds       Kilograms");
 		int kilograms = 1;
 		int pounds = 20;
-		for (int i = 1; i <= 199; i++) {
+		for (int i = 1; i <= 199; i+=2) { // JA: The first loop incremented by 2
 			System.out.printf("\n%5d", kilograms);
 			System.out.print("        ");
 			System.out.printf("%7.1f", kilograms * 2.2);
