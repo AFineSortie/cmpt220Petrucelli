@@ -11,6 +11,7 @@ public class RemoveText {
 		PrintWriter output = new PrintWriter(tempfile);
 		while (input.hasNext()) {
 			String s1 = input.nextLine();
+			// JA: Here you should replace the text
 			if (!s1.equals(args[0])) {
 				output.println(s1);
 			}
